@@ -13,13 +13,10 @@ return require('packer').startup(function(use)
         requires = { {'nvim-lua/plenary.nvim'} }
     }
 
-
+-- themes
     use { "catppuccin/nvim", as = "catppuccin" }
-
     use { "HiPhish/rainbow-delimiters.nvim" }
-
     use ('nvim-treesitter/nvim-treesitter', { run = ':TSUpdate'})
-
     use ('nvim-treesitter/playground')
 
     use "nvim-lua/plenary.nvim" -- don't forget to add this one if you don't have it yet!
@@ -36,7 +33,6 @@ return require('packer').startup(function(use)
     use({'neovim/nvim-lspconfig'})
     use({'hrsh7th/nvim-cmp'})
     use({'hrsh7th/cmp-nvim-lsp'})
-
     use {
         "williamboman/mason.nvim",
         "williamboman/mason-lspconfig.nvim",
@@ -52,10 +48,20 @@ return require('packer').startup(function(use)
     }
 
     use 'Olical/conjure'
-
     use {
         'clojure-vim/vim-jack-in',
-        'radenling/vim-dispatch-neovim'
+        'radenling/vim-dispatch-neovim',
+
+        -- editing
+        'guns/vim-sexp',
+        'tpope/vim-sexp-mappings-for-regular-people',
+        'tpope/vim-repeat',
+        'tpope/vim-surround',
+    }
+
+    use {
+        "AmeerTaweel/todo.nvim",
+        requires = "nvim-lua/plenary.nvim",
     }
 
 end)

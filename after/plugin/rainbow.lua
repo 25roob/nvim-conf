@@ -14,13 +14,13 @@ require('rainbow-delimiters.setup').setup {
 		lua = 210,
 	},
 	highlight = {
+		'RainbowDelimiterGreen',
 		'RainbowDelimiterRed',
+		'RainbowDelimiterCyan',
+		'RainbowDelimiterViolet',
 		'RainbowDelimiterYellow',
 		'RainbowDelimiterBlue',
 		'RainbowDelimiterOrange',
-		'RainbowDelimiterGreen',
-		'RainbowDelimiterViolet',
-		'RainbowDelimiterCyan',
 	},
 }
 

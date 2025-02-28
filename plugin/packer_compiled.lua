@@ -157,6 +157,11 @@ _G.packer_plugins = {
     path = "/home/rob25/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
   },
+  ["todo.nvim"] = {
+    loaded = true,
+    path = "/home/rob25/.local/share/nvim/site/pack/packer/start/todo.nvim",
+    url = "https://github.com/AmeerTaweel/todo.nvim"
+  },
   undotree = {
     loaded = true,
     path = "/home/rob25/.local/share/nvim/site/pack/packer/start/undotree",
@@ -176,6 +181,26 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/rob25/.local/share/nvim/site/pack/packer/start/vim-jack-in",
     url = "https://github.com/clojure-vim/vim-jack-in"
+  },
+  ["vim-repeat"] = {
+    loaded = true,
+    path = "/home/rob25/.local/share/nvim/site/pack/packer/start/vim-repeat",
+    url = "https://github.com/tpope/vim-repeat"
+  },
+  ["vim-sexp"] = {
+    loaded = true,
+    path = "/home/rob25/.local/share/nvim/site/pack/packer/start/vim-sexp",
+    url = "https://github.com/guns/vim-sexp"
+  },
+  ["vim-sexp-mappings-for-regular-people"] = {
+    loaded = true,
+    path = "/home/rob25/.local/share/nvim/site/pack/packer/start/vim-sexp-mappings-for-regular-people",
+    url = "https://github.com/tpope/vim-sexp-mappings-for-regular-people"
+  },
+  ["vim-surround"] = {
+    loaded = true,
+    path = "/home/rob25/.local/share/nvim/site/pack/packer/start/vim-surround",
+    url = "https://github.com/tpope/vim-surround"
   }
 }
 
