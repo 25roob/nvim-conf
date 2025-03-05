@@ -48,12 +48,3 @@ require("todo").setup {
         pattern = [[\b(KEYWORDS):?]] -- ripgrep regex
     }
 }
--- NOTE:
--- NOTE 
--- WARN
--- TODO
--- INFO
--- BUG
--- FIXME
--- FIX
--- ISSUE

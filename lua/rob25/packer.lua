@@ -40,12 +40,13 @@ return require('packer').startup(function(use)
 
     use 'eandrju/cellular-automaton.nvim'
 
-    use {
-        'ZhiyuanLck/smart-pairs',
-        event = 'InsertEnter',
-        config = function() require('pairs'):setup()
-        end
-    }
+    use 'gpanders/nvim-parinfer'
+   -- use {
+   --     'ZhiyuanLck/smart-pairs',
+   --     event = 'InsertEnter',
+   --     config = function() require('pairs'):setup()
+   --     end
+   -- }
 
     use 'Olical/conjure'
     use {
