@@ -84,6 +84,8 @@ end)
 -- New Remaps
 vim.keymap.set("n", "<leader>wv", "<cmd>vsplit<CR>")
 vim.keymap.set("n", "<leader>ws", "<cmd>split<CR>")
+vim.keymap.set("n", "{", "{zz")
+vim.keymap.set("n", "}", "}zz")
 
 
 
