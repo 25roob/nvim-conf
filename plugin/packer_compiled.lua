@@ -74,6 +74,11 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
+  aniseed = {
+    loaded = true,
+    path = "/home/rob25/.local/share/nvim/site/pack/packer/start/aniseed",
+    url = "https://github.com/Olical/aniseed"
+  },
   catppuccin = {
     loaded = true,
     path = "/home/rob25/.local/share/nvim/site/pack/packer/start/catppuccin",
