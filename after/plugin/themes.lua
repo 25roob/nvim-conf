@@ -31,8 +31,7 @@ require("catppuccin").setup({
         -- miscs = {}, -- Uncomment to turn off hard-coded styles
     },
     color_overrides = {
-	all = {
-            -- text = "#ffffff",
+	    all = {
 			rosewater = '#f66151',
 			flamingo = '#c061cb',
 			pink = '#c061cb',
@@ -43,6 +42,7 @@ require("catppuccin").setup({
 			yellow = '#F5C211',
 			green = '#33d17a',
 			green0 = '#33d1a2',
+            green1 = '#50b47d',
 			teal = '#54DBF6',
 			sky = '#62a0ea',
 			sapphire = '#62a0ea',
@@ -72,7 +72,7 @@ require("catppuccin").setup({
     },
     custom_highlights = function(colors)
         return {
-            -- -- Comment = { fg = colors.flamingo },
+            Comment = { fg = colors.green1},
             -- TabLineSel = { bg = colors.pink },
             -- CmpBorder = { fg = colors.surface2 },
             -- Pmenu = { bg = colors.none },
