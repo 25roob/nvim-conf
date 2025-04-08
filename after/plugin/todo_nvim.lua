@@ -15,7 +15,7 @@ require("todo").setup {
         },
         TODO = { icon = " ", color = "info" },
         WARN = { icon = " ", color = "warning", alt = { "WARNING" } },
-        NOTE = { icon = "►►", color = "hint", alt = { "INFO" } }
+        NOTE = { icon = "🛈 ", color = "hint", alt = { "INFO" } }
     },
     merge_keywords = true, -- wheather to merge custom keywords with defaults
     highlight = {
