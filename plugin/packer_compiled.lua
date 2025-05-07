@@ -99,6 +99,11 @@ _G.packer_plugins = {
     path = "/home/rob25/.local/share/nvim/site/pack/packer/start/conjure",
     url = "https://github.com/Olical/conjure"
   },
+  ["fennel.vim"] = {
+    loaded = true,
+    path = "/home/rob25/.local/share/nvim/site/pack/packer/start/fennel.vim",
+    url = "https://github.com/Olical/fennel.vim"
+  },
   harpoon = {
     loaded = true,
     path = "/home/rob25/.local/share/nvim/site/pack/packer/start/harpoon",
@@ -113,6 +118,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/rob25/.local/share/nvim/site/pack/packer/start/mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
+  },
+  nfnl = {
+    loaded = true,
+    path = "/home/rob25/.local/share/nvim/site/pack/packer/start/nfnl",
+    url = "https://github.com/Olical/nfnl"
   },
   ["nvim-cmp"] = {
     loaded = true,

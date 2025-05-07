@@ -59,7 +59,9 @@ return require('packer').startup(function(use)
         requires = "nvim-lua/plenary.nvim",
     }
 
-    use 'Olical/aniseed'
+    use "Olical/nfnl"
+    use "Olical/aniseed"
+    use "Olical/fennel.vim"
 end)
 
 
