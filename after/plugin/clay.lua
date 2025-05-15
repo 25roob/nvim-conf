@@ -1,7 +1,7 @@
 -- [nfnl] after/plugin/clay.fnl
 local nvim = require("aniseed.nvim")
-local a = require("aniseed.core")
-local str = require("aniseed.string")
+local a = require("nfnl.core")
+local str = require("nfnl.string")
 local eval = require("conjure.eval")
 local extract = require("conjure.extract")
 local function call_clay_make()

@@ -34,8 +34,8 @@ return require('packer').startup(function(use)
     use({'hrsh7th/nvim-cmp'})
     use({'hrsh7th/cmp-nvim-lsp'})
     use {
-        "williamboman/mason.nvim",
-        "williamboman/mason-lspconfig.nvim",
+        "mason-org/mason.nvim",
+        "mason-org/mason-lspconfig.nvim",
     }
 
     use 'eandrju/cellular-automaton.nvim'
@@ -62,6 +62,11 @@ return require('packer').startup(function(use)
     use "Olical/nfnl"
     use "Olical/aniseed"
     use "Olical/fennel.vim"
+
+    use {
+        'S1M0N38/love2d.nvim',
+        ft = "lua"
+    }
 end)
 
 
